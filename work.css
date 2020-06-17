@@ -1,0 +1,40 @@
+html,body {scroll-behavior: smooth; }
+P{font-size:24px;color:#434343ff;font-family: 'Noto Serif TC', serif}
+li{font-size:20px;color:#232120ff;font-family: 'Noto Serif TC', serif}
+body{positon:absolute;transfrom:translate(-50%,0);left:50%;}
+span{font-size:24px;color:#434343ff;font-family: 'Noto Serif TC', serif}
+.a{display:inline-block;width:192px;}
+li{color:#5d5d5dff}
+.c{display:inline-block;width:200px;}
+.b{display:inline-block;}
+.e{crossorigin:anonymous;}
+.f{color: #604c38ff;}
+.f:hover{color: #b55b42f8;}
+  
+.h{background: #ffffff00;}
+.h:hover{background: #b3c6b994;}
+.i{background: #ffffff00;}
+.i:hover{background: #b3c6c394;}
+.j{background: #ffffff00;}
+.j:hover{background: #b3bdc694;}
+  
+#frame{border:solid #e5e3e2bd;position:absolute;left:38%;width:350px;height:500px;overflow:hidden;border-radius:5px}
+#dis{position:absolute;left:-50px;top:-10px;opacity:.5}
+#dis li{display:inline-block;width:200px;height:20px;margin:0 50px;float:left;text-align:center;color:#fff;border-radius:10px;background:#000}
+#photos .b{float:left;width:350px;height:540px}
+#photos {  position: absolute;z-index:9;  width: calc(350px * 3);}
+.play{ animation: ma 15s ease-out infinite alternate;}
+@keyframes ma {
+0%,30% {margin-left: 0px;}
+34%,60% {margin-left: -350px;}
+66%,100% {margin-left: -700px;}}     
+  
+@keyframes typing { from { width: 0 } } .z{ width: 23em; animation: typing 5s; }
+.z{ width: 23em; overflow: hidden; white-space: nowrap; animation: typing 5s steps(23);
+@keyframes typing { from { width: 0; } } @keyframes caret { 50% {border-color: transparent;} } .z{ width: 23em; overflow: hidden; white-space: nowrap; border-right: 0.2em solid; animation: typing 5s steps(23), caret 0.5s steps(1) infinite;}
+  
+.container{display:flex;align-items:center;padding:0.3em;border:5px solid #ccc;box-shadow:0 2px 4px rgba(0,0,0,0.5);border-radius:.25em;}
+.avatar{border-radius:0.25em;margin-right:0.5em;padding:0em;margin:0.25em;}
+.profile{flex:1;}
+.action{color:#090;}
+.button{position:absolute;right:10;top:200;display:inline-block;padding:.2em .5em;color:#000;border-radius:.25em;}
